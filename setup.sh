@@ -14,3 +14,6 @@ zsh -c "git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH
 cd -
 rm ~/.zshrc
 ./install
+echo "Changing your shell to /bin/zsh"
+chsh -s /bin/zsh
+echo "logout and enjoy your new shell"
