@@ -1,0 +1,69 @@
+Host github.com
+HostName github.com
+User git
+IdentityFile ~/.ssh/GitHub_rsa
+
+Host servalan.lan
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+#    LogLevel QUIET
+    User colin
+
+Host orac.lan
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+#    LogLevel QUIET
+
+Host cally.lan
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+#    LogLevel QUIET
+
+Host ionos1.lan
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+#    LogLevel QUIET
+
+Host ionos.lan
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+#    LogLevel QUIET
+
+Host dess.lan
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+#    LogLevel QUIET
+Host 127.0.0.1
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/id_ed25519
+    LogLevel QUIET
+
+Host localhost
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/id_ed25519
+    LogLevel QUIET
+
+Host 0
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+    LogLevel QUIET
+Host ionos2.lan
+    User cconstab
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
+    LogLevel QUIET
+Host fivepi.lan
+    User cconstab
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    IdentityFile ~/.ssh/GitHub_rsa
