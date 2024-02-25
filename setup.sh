@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir ~/.zsh
 # get ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # get zsh syntax highlighter
