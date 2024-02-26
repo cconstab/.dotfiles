@@ -110,3 +110,4 @@ source $ZSH/oh-my-zsh.sh
 # My Stuff
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 export PATH="$HOME/.local/bin:$PATH
+unsetopt AUTO_CD
