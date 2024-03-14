@@ -1,12 +1,23 @@
 #!/bin/bash
-if [ ! -f /usr/bin/zsh ]
+which zsh
+if [ $? eq 1 ]
 	then
 	sudo apt install zsh
-	else
-	echo "Yay zsh is installed!"
 fi
+        echo "Yay ZSH installed"
 mkdir ~/.zsh
-
+which curl
+if [ $? eq 1 ]
+	then
+	sudo apt install curl
+fi
+        echo "Yay curl installed"
+which python3
+if [ $? eq 1 ]
+	then
+	sudo apt install python3
+fi
+        echo "Yay  python3 installed"
 # get catppuccin
 git clone https://github.com/catppuccin/zsh-syntax-highlighting.git /tmp/catppuccin
 cd /tmp/catppuccin/themes/
