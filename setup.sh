@@ -2,20 +2,20 @@
 which zsh
 if [ $? -eq 1 ]
 	then
-	sudo apt install zsh
+	sudo apt -y install zsh
 fi
         echo "Yay ZSH installed"
 mkdir ~/.zsh
 which curl
 if [ $? -eq 1 ]
 	then
-	sudo apt install curl
+	sudo apt -y install curl
 fi
         echo "Yay curl installed"
 which python3
 if [ $? -eq 1 ]
 	then
-	sudo apt install python3
+	sudo apt -y install python3
 fi
         echo "Yay  python3 installed"
 # get catppuccin
