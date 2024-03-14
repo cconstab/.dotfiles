@@ -1,19 +1,19 @@
 #!/bin/bash
 which zsh
-if [ $? eq 1 ]
+if [ $? -eq 1 ]
 	then
 	sudo apt install zsh
 fi
         echo "Yay ZSH installed"
 mkdir ~/.zsh
 which curl
-if [ $? eq 1 ]
+if [ $? -eq 1 ]
 	then
 	sudo apt install curl
 fi
         echo "Yay curl installed"
 which python3
-if [ $? eq 1 ]
+if [ $? -eq 1 ]
 	then
 	sudo apt install python3
 fi
