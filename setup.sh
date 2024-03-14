@@ -1,5 +1,12 @@
 #!/bin/bash
+if [ ! -f /usr/bin/zsh ]
+	then
+	sudo apt install zsh
+	else
+	echo "Yay zsh is installed!"
+fi
 mkdir ~/.zsh
+
 # get catppuccin
 git clone https://github.com/catppuccin/zsh-syntax-highlighting.git /tmp/catppuccin
 cd /tmp/catppuccin/themes/
