@@ -1,6 +1,3 @@
-IdentityFile ~/.ssh/GitHub_rsa
-IdentityFile ~/.ssh/id_ed25519
-
 Host github.com
 HostName github.com 
 User git 
@@ -95,4 +92,3 @@ Host fivepi.lan
     StrictHostKeyChecking no
     UserKnownHostsFile /dev/null
     IdentityFile ~/.ssh/GitHub_rsa
-
