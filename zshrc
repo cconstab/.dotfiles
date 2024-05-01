@@ -109,6 +109,8 @@ source $ZSH/oh-my-zsh.sh
 #
 # My Stuff
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
-export PATH="/home/cconstab/software/flutter/bin:$PATH"
+#export PATH="/home/cconstab/software/flutter/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/flutter/bin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 unsetopt AUTO_CD
